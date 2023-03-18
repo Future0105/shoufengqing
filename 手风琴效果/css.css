@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+body .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 10vh;
+}
+body .box div {
+  flex: 1;
+  height: 80vh;
+  overflow: hidden;
+  margin: 0 10px;
+  border-radius: 50px;
+  transition: flex 0.8s;
+}
+body .box div.big {
+  flex: 5;
+}

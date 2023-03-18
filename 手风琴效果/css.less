@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding: 10vh;
+
+        div {
+            flex: 1;
+            height: 80vh;
+            overflow: hidden;
+            margin: 0 10px;
+            border-radius: 50px;
+            transition: flex 0.8s;
+
+            &.big {
+                flex: 5;
+            }
+        }
+    }
+}
